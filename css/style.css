@@ -227,15 +227,6 @@ h1, h2, h3, h4 {
 .hero-point .num { font-family: var(--font-head); font-size: 22px; font-weight: 700; color: var(--orange-600); }
 .hero-point .label { font-size: 14px; color: var(--gray-200); font-weight: 500; }
 
-/* Soft bridge from the hero's navy into the white section below it, instead of a hard cut. */
-.hero-fade {
-  height: 160px;
-  background: linear-gradient(to bottom, var(--navy-900), var(--white));
-}
-@media (max-width: 860px) {
-  .hero-fade { height: 90px; }
-}
-
 /* ---------- Page hero (inner pages) ---------- */
 .page-hero {
   position: relative;
